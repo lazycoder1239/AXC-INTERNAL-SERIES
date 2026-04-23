@@ -1,0 +1,22 @@
+ public Form2()
+ {
+     InitializeComponent();
+ }
+
+ private bool isProcessRunning = false;
+ private IntPtr mainHandle;
+
+ public Form2(IntPtr handle)
+ {
+     try
+     {
+
+         mainHandle = handle;
+         InitializeComponent();
+     }
+     catch (Exception ex)
+     {
+         MessageBox.Show($"Form2 init error: {ex.Message}");
+     }
+
+ }
