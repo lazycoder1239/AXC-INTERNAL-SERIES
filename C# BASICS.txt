@@ -1,0 +1,45 @@
+c# 
+
+
+using System;    // Importing Features of specified Function  
+
+;   // to end a particular line
+
+
+
+
+Data Types 
+1. int age = 9;  /// whole number storing data type
+
+2. Bool = true / false  // gets the return in true or false
+
+3.  string = "Developer";  // to store a value in text
+
+4. float = 3.14;  // stores value in decimal number (less precise 3.14)
+
+5. double =  3.476276; // stores the vlaue which is more precise 
+
+6. nint = 64 bit- 8 bytes , 32bit 4byte 
+
+
+
+Variable =  local name to store the value..  
+
+
+public = useable in any file in an project
+
+private = useable in existing .cs file
+
+internal = can be used in the same project 
+
+object/instance = Car b = new Car;   b = Show;
+
+static =  avoid creating object 
+
+pointer = storing memory address 
+
+! = not
+
+
+
+
